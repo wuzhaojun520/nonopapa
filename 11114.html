@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #nnn{
+    background:none;
+    border:none;
+    }
+    #nnn .title{
+    width:300px;
+    height: 25px;
+    }
+    #nnn .inner{
+    width: 300px;
+    height: 150px;
+    background-color: #ff0001;
+    visibility: hidden;
+    }
+    #nnn:focus{
+    outline: none;
+
+    }
+    #nnn:focus .inner{
+          visibility: visible;
+      }
+    </style>
+</head>
+<body>
+<button id="nnn">
+    <div class="title">
+        点我啊
+    </div>
+
+    <div class="inner">
+
+    </div>
+</button>
+</body>
+</html>

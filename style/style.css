@@ -1,0 +1,150 @@
+.logo{
+    height: 150px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo .inner{
+    width: 200px;
+    height: 128px;
+  margin: 20px 0 0 200px;
+}
+.logo2{
+    height: 34px;
+    background-color: brown;
+
+}
+.logo2 .name{
+    height: 20px;
+    position: absolute;
+    top:174px;
+    left:60px;
+}
+
+
+
+.logo2 .img1{
+    height: 20px;
+    position: absolute;
+    top:175px;
+    left:210px;
+
+}
+.logo2 .h{font-family: "叶根友毛笔行书2.0版"; font-size:30px;
+}
+.top{
+    border-bottom: black solid 8px;
+    border-left: black solid 8px;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    margin: 40px 0 0 40px;
+
+}
+.top .r{font-family: "叶根友毛笔行书2.0版"; font-size:30px;}
+.top li{
+    font-size: 20px;
+}
+.img2-img{
+    width: 200px; ;
+    height: 200px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 300px;
+}
+.top .top2{
+    border-bottom: black solid 8px ;
+    border-left: black solid 8px;
+    height: 30px;
+    width: 200px;
+    margin: -209px 0 0 500px;
+
+}
+.top .p {
+    font-family: "叶根友毛笔行书2.0版";
+    font-size: 30px;
+}
+.www{
+    margin: 40px 0 0 20px;
+}
+.h1,.h2 ,.h3{
+    height: 100px;
+    width: 150px;
+    border:black solid 2px ;
+    float: left;
+}
+.h1{
+    position: relative;
+    top:40px;
+    left:50px;
+}
+.h2{
+    position: relative;
+    top:40px;
+    left:150px;
+
+}
+.h3{
+    position: relative;
+    top:40px;
+    left:250px;
+}
+.H{
+    height:170px;
+}
+.h4,.h5 ,.h6{
+    height: 100px;
+    width: 150px;
+    border:black solid 2px ;
+    float: left;}
+.h4{
+    position: relative;
+    top:40px;
+    left:50px;
+}
+.h5{
+    position: relative;
+    top:40px;
+    left:150px;
+
+}
+.H2{
+    height:170px;
+
+}
+.h6{
+    position: relative;
+    top:40px;
+    left:250px;
+}
+.h7,.h8 ,.h9{
+    height: 100px;
+    width: 150px;
+    border:black solid 2px ;
+    float: left;}
+.h7{
+    position: relative;
+    top:40px;
+    left:50px;
+}
+.h8{
+    position: relative;
+    top:40px;
+    left:150px;
+
+}
+.h9{
+    position: relative;
+    top:40px;
+    left:250px;
+}
+.H3{
+    height: 170px;
+}
+.A{
+    height: 300px;
+    background-color: aqua;
+}

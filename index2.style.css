@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 100%;
+    height:156px;
+    /*position: relative;*/
+}
+.logo-inner{
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    left:50%;
+    margin-left: -500px;
+}
+.logo-inner  a {
+    color: #000;
+    text-decoration: none;
+}
+.logo-inner a{
+display: block;
+    height: 90px;
+    width: 173px;
+    margin-top: 21px;
+    margin-left: 22px;
+}
+.logo-container{
+    text-align: center;
+    width: 173px;
+    height: auto;
+    margin-top: 9px;
+}
+.navigator{
+    width: 100%;
+    height: 35px;
+    background-color: #8C2106;
+}
+.inner{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.navigator a{
+    display: block;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+.search-container{
+    width: 280px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px #6F1A04 solid;
+    background-color:#E13409 ;
+    float: left;
+    margin-left: 16px;
+    margin-top: 6px;
+    line-height: 1px;
+}
+.search-input{
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    width: 255px;
+    padding-left: 5px;
+    color: #fff;
+    border: none;
+}
+.search-container > *{
+    display: block;
+    float: left;
+}
+* {
+    box-sizing: border-box;
+}
+.title{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.title h1{
+    display: block;
+    margin-top: 47px;
+    margin-left: 33px;
+}
+.picture{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.picture-inner{
+    width: 1300px;
+    margin-top: 27px;
+    margin-left: 13px;
+    overflow: hidden;
+}
+.picture-container{
+    float: left;
+    margin-right: 16px;
+}
+.account{
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+
+
+}
+.label,.label-container,.account-container{
+    float: left;
+}
+.account .label{
+    float: left;
+}
+.account-container{
+    width: 525px;
+    height: auto;
+    float: left;
+}
+.account-inner{
+    width: 525px;
+    height: auto;
+    margin-top: 82px;
+    margin-left: 33px;
+}
+.account-p{
+    margin-left: 41px;
+}
+.account-p a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.label{
+    width: 117px;
+    height: auto;
+}
+
+.label-inner{
+    width: 117px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 80px;
+    overflow: auto;
+}
+.label-container {
+    width: 358px;
+    height: auto;
+    position: relative;
+
+}
+.label1{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#E13409 ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -100px;
+}
+.label1{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#fdaf46 ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -160px;
+    left: 80px;
+
+}
+.label2{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:yellow ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -200px;
+    left: -40px;
+}
+.label3{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:greenyellow ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -220px;
+left: 220px;
+}
+.label4{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:blueviolet ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -230px;
+    left: 70px;
+}
+.label5{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:blue ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -350px;
+    left: 50px;
+    text-align: center;
+}
+.label6{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:wheat ;
+    line-height: 40px;
+    position: absolute;
+    bottom: -270px;
+    left: 250px;
+    text-align: center;
+}
+.label7{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:yellow;
+    line-height: 40px;
+    position: absolute;
+    bottom: -300px;
+    left: -100px;
+    text-align: center;
+}
+.practice{
+    width: 100%;
+    height: auto;
+}
+.practice-dinner{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.practice-p{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 7px;
+}
+.discuss{
+    width: 100%;
+    height: auto;
+}
+.discuss-inner h1{
+    display: block;
+}
+.discuss-inner{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.discuss-inner1{
+    border: 1px black solid;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    margin-top: 40px;
+}
+.discuss-inner2{
+    width: 755px;
+    height: auto;
+    margin-left: 129px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #2d2d2d;
+    margin-top: 34px;
+}
+.footer .content{
+    width: 1000px;
+    height: auto;
+    margin:0 auto;
+}
+.footer .content > div{
+    float: left;
+}
+.footer .links{
+    width: 274px;
+    height: auto;
+}
+.footer .friendship{
+    height: auto;
+    width:74px ;
+    color: #ad6503;
+    font-size: 14px;
+    float: left;
+    margin-top: 26px;
+}
+.friendship-content{
+    float: left;
+    list-style: none;
+    margin-left: -48px;
+    margin-top: 40px;
+    line-height: 30px;
+
+}
+.friendship-content a{
+    text-decoration: none;
+}
+.friendship-content > li:last-child{
+    margin-top: 30px;
+}
+.register{
+    width: 255px;
+    height: auto;
+    margin-left: 50px;
+    float: left;
+}
+.register p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.label-container{
+    float: left;
+    color: #b2b2b2;
+    width: 77px;
+    text-align: right;
+    font-size: 14px;
+
+
+}
+.register input[type=text]
+,.register input[type=password]{
+    width: 175px;
+    height: 27px;
+    border-radius: 4px;
+    background-color: #646464;
+    border-color: #fdaf46;
+}
+.register .row{
+    margin-bottom: 12px;
+    text-align: right;
+}
+.row input[type=button]{
+    border-radius: 4px;
+    border: none;
+}
+.login{
+    width: 255px;
+    height: auto;
+    margin-left: 50px;
+    float: left;
+}
+.login p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.label-container2{
+    float: left;
+    color: #b2b2b2;
+    width: 77px;
+    text-align: right;
+    font-size: 14px;
+
+
+}
+.login input[type=text]
+,.login input[type=password]{
+    width: 175px;
+    height: 27px;
+    border-radius: 4px;
+    background-color: #646464;
+    border-color: #fdaf46;
+}
+.login .row1{
+    margin-bottom: 12px;
+    text-align: right;
+}
+.row1 input[type=button]{
+    border-radius: 4px;
+    border: none;
+}
+/*.inner5{*/
+    /*height: 400px;*/
+    /*width: 150px;*/
+    /*position: fixed;*/
+    /*border: 1px #6F1A04 solid;*/
+    /*right: 0;*/
+/*}*/
+
+.layer{
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    background-color:rgba(0,0,0,0.3) ;
+    top:0;
+    left: 0;
+    visibility: hidden;
+}
+#addremrak:checked~.layer{
+    visibility: visible;
+}

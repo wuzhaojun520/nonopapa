@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 1200px;
+    height: 111px;
+    background-color: #7c7f79;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-1{
+    width: 267px;
+    height: 79px;
+    background-color: rgba(36,85,84,1);
+    position: absolute;
+    bottom: 18px;
+}
+.logo-1 a{
+    display: block;
+    margin: 27px auto auto 33px;
+}
+.logo-3{
+    width: 28px;
+    height: 79px;
+    background-color:#3a6665 ;
+    position: absolute;
+    bottom: 18px;
+    left: -28px;
+}
+.logo-4{
+    width: 410px;
+    height: 46px;
+    float: right;
+    margin-top: 36px;
+
+}
+.logo-5{
+    width: auto;
+    height: 46px;
+    float: left;
+    line-height: 46px;
+    border-right:2px solid #686a66 ;
+    margin-right: 10px;
+}
+.logo-5 a{
+    color: #d5d6d4;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.logo-6 a{
+    color: #d5d6d4;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.logo-5 ,.logo-6{
+    float: left;
+    height: 49px;
+}
+.logo-6 {
+    width: auto;
+    height: 46px;
+    line-height: 46px;
+}
+.inner{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.left{
+    width: 807px;
+    height: auto;
+    float: left;
+}
+h1{
+    margin: 33px 0 0 31px ;
+}
+h2{
+    margin: 27px 0 0 31px;
+}
+.content-zong{
+    width: 807px;
+    height: auto;
+    overflow: hidden;
+}
+.content{
+    width: 440px;
+    height: auto;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+.content , .picture{
+    float: left;
+    margin-top: 20px;
+}
+.content p{
+    margin: 0 0 12px 0;
+}
+.content-p{
+    width: 689px;
+    height: auto;
+    margin-left: 31px;
+}
+.content-p p{
+    margin: 0 0 12px 0;
+}
+.collection{
+    width: 598px;
+    height: 42px;
+    border:5px solid #c6c6c6;
+    border-radius:15px;
+    margin-left: 31px;
+    margin-top: 19px;
+    background-color: #f9f9f9;
+}
+.collection img{
+    display: block;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+img ,.collection-inner{
+    float: left;
+}
+.collection-inner{
+    height: 100%;
+    width: 540px;
+    background-color:#f9f9f9 ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.collection > .collection-inner{
+    box-sizing: border-box;
+}
+.value-left{
+    display: block;
+    width: 111px;
+    height: 46px;
+    background-color: #bf273d;
+    color: white;
+    border-radius: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 26px;
+    outline: none;
+}
+ .collection , .value-left{
+     float: left;
+ }
+.collection-zong{
+    width: 807px;
+    height: auto;
+    overflow: hidden;
+}
+hr{
+    width: 750px;
+    height: auto;
+    margin: 29px 0 0 29px;
+}
+.company{
+    width: 314px;
+    height: auto;
+    margin-left: 31px;
+}
+.company img{
+    display: block;
+}
+.summer{
+    width: 314px;
+    height: auto;
+    margin-top: 15px;
+}
+.exercise{
+    width: 314px;
+    height: auto;
+    overflow: hidden;
+}
+.company p{
+    margin: 0 0 15px 0;
+}
+.company1{
+    width: 314px;
+    height: auto;
+    margin-left: 31px;
+}
+.company1 img{
+    display: block;
+}
+.summer1{
+    width: 314px;
+    height: auto;
+    margin-top: 15px;
+}
+.exercise1{
+    width: 314px;
+    height: auto;
+    overflow: hidden;
+}
+.company1 p{
+    margin: 0 0 15px 0;
+}
+.company2{
+    width: 314px;
+    height: auto;
+    margin-left: 31px;
+}
+.company2 img{
+    display: block;
+}
+.summer2{
+    width: 314px;
+    height: auto;
+    margin-top: 15px;
+}
+.exercise2{
+    width: 314px;
+    height: auto;
+    overflow: hidden;
+}
+.company2 p{
+    margin: 0 0 15px 0;
+}
+.company3{
+    width: 314px;
+    height: auto;
+    margin-left: 31px;
+}
+.company3 img{
+    display: block;
+}
+.summer3{
+    width: 314px;
+    height: auto;
+    margin-top: 15px;
+}
+.exercise3{
+    width: 314px;
+    height: auto;
+    overflow: hidden;
+}
+.company3 p{
+    margin: 0 0 15px 0;
+}
+.company4{
+    width: 314px;
+    height: auto;
+    margin-left: 31px;
+}
+.company4 img{
+    display: block;
+}
+.summe4r{
+    width: 314px;
+    height: auto;
+    margin-top: 15px;
+}
+.exercise4{
+    width: 314px;
+    height: auto;
+    overflow: hidden;
+}
+.company4 p{
+    margin: 0 0 15px 0;
+}
+.company , .company1 , .company2 , .company3  ,.company4{
+    float: left;
+    margin-top: 26px;
+}
+.company3 {
+    margin-left: 69px;
+}
+.company1{
+    margin-left: 69px;
+}
+.galex{
+    overflow: hidden;
+}
+.right {
+    width: 370px;
+    height: 1500px;
+    background-color: #dedfdc;
+    float: left;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+.right input[type=text]{
+    width: 230px;
+    height: 26px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.right input[type=button]{
+    width: 100px;
+    height: 32px;
+  border-radius: 10px;
+    background-color: #bf273d;
+    line-height: 32px;
+    color: white;
+   outline: none;
+}
+
+.zhao{
+    width: 150px;
+    height: 34px;
+
+}
+.zhao1{
+    width: 6px;
+    height: 6px;
+    background-color:#dedfdc;
+    border:2px solid #b1a396;
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.zhao a{
+    margin-left: 30px;
+    color: #775920;
+    display: block;
+}
+.jun{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.right h2{
+ color:#775920;
+}
+.right p{
+    margin: 15px 0 0 32px;
+}
+.inner{
+    overflow: hidden;
+}
+.left p{
+    margin: 5px 0 0 31px;
+}
+.bottom{
+    width: 1200px;
+    height: 66px;
+    background-color: #7c7f79;
+    margin: 14px auto 0 auto;
+    position: relative;
+}
+.bottom h3{
+    position: absolute;
+    left: 34px;
+    top:28px;
+    margin: 0;
+    color: #ffffea;
+}
+.logo-7{
+    width: 410px;
+    height: 46px;
+    float: right;
+    margin-top: 18px;
+
+}
+.logo-8{
+    width: auto;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    border-right:2px solid #686a66 ;
+    margin-right: 15px;
+}
+.logo-8 a{
+    color: #d5d6d4;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.logo-9 a{
+    color: #d5d6d4;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+.logo-8 ,.logo-9{
+    float: left;
+    height: 36px;
+}
+.logo-9 {
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学员信息登记</title>
+<style>
+    #inner [for="sex"]{
+        color: green;
+    }
+
+    #name{
+        background-color: #ff0001;
+    }
+    #youxiang{
+        background-color:yellow;
+    }
+    h3{
+        color: #ff0001;
+    }
+    [for="xiangxi"]{font-family:"微软雅黑";font-size:30px;}
+    #nnn{
+        background:none;
+        border:none;
+    }
+    #nnn .title{
+        width:300px;
+        height: 25px;
+    }
+    #nnn .inner{
+        width: 300px;
+        height: 150px;
+        background-color: #ff0001;
+        visibility: hidden;
+    }
+    #nnn:focus{
+        outline: none;
+
+    }
+    #nnn:focus .inner{
+        visibility: visible;
+    }
+    .mmm{
+        float: left;
+    }
+    .bbb{
+        float:left;
+    }
+    .uuu{
+        width:500px ;
+        height: 383px;
+    }
+    .eee{
+        float: left;
+        margin-top: 200px;
+    }
+    #uuuu{
+        color: #ff0001;
+    }
+
+
+</style>
+</head>
+<body>
+<h1>学员信息登记</h1>
+<div class="inner">
+    <form action="#">
+        <label for="name">名字</label>:<input id="name" type="text"/><br><br>
+        <label for="sex">性别</label>: <input id="sex" name="dd" type="radio"/>男
+        <label for="sex2"></label><input  id="sex2" checked name="dd" type="radio"/>女<br /><br>
+        <label for="fav">爱好</label>: <input id="fav" name="ss" type="checkbox"/>篮球
+        <label for="fav1"></label><input id="fav1" name="ss" type="checkbox"/>刷微博
+        <label for="fav2"></label><input id="fav2" checked name="ss" type="checkbox"/>购物<br /><br>
+        <label for="touXiang">头像</label>:<img id="touXiang" src="1.jpg" alt="1教程" width="100"><br><br>
+        <label for="youxiang">邮箱</label>:<input  id="youxiang" type="text"/><br><br>
+        <label for="suozaidi">所在地</label>:<select id="suozaidi"><option>四川</option></select>
+        <label for="suozaidi1"></label><select id="suozaidi1"><option>成都</option></select>
+        <label for="suozaidi2"></label><select id="suozaidi2"><option>双流</option></select>
+        <label for="suozaidi3"></label><select id="suozaidi3"><option>某街</option></select><br><br>
+        <label for="xiangxi">详细地址</label>:<input  id="xiangxi" type="text"/>
+    </form>
+</div>
+<div class="uuu">
+<div class="mmm">
+<h4 id="uuuu">考过的证书：</h4><br><br><br>
+    <h4>其他：</h4><br><br><br><br><br><br>
+    <h4>数学成绩：</h4>
+    <h4>空气湿度：</h4>
+</div>
+
+<div class="bbb">
+    <ul>
+        <br>
+    <li>计算机登记证</li>
+        <br>
+    <li>好人证</li>
+        <br>
+    <li>学位证</li>
+    </ul>
+    <ol start="5" tpye="I">
+        <br>
+        <li>大学英语四级</li>
+        <br>
+        <li>证书</li>
+        <br>
+        <li>优秀团员</li>
+        <br>
+        <li>五好学生证</li>
+    </ol>
+
+    <input id="shuxue" type="number"/><br><br>
+    <input id="shidu" type="range"/><br><br>
+        <div id="hhh"  >
+
+        </div>
+</form>
+</div>
+    <div class="eee">
+        <img id="touxiang5" src="1.jpg" alt="1教程"  >
+    </div>
+    </div>
+<button id="nnn">
+<div class="title">
+    点我啊
+</div>
+
+<div class="inner">
+
+</div>
+</button><br><br>
+
+<input type="submit" value="提交" name="submit"/>
+<input type="button" value="取消" name="button"/>
+
+
+</body>
+</html>

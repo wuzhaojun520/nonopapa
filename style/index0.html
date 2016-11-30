@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            counter-reset: section;
+        }
+        p:first-line{
+            color: #7c7f79;
+        }
+        .before-test:before{
+            content:"("attr(data-illustrate)")";
+
+        }
+        .before-counter h1{
+            counter-reset: subsection;
+        }
+        .before-counter h1:before{
+            counter-increment: section;
+            content: "section" counter(section)".";
+        }
+        .before-counter h2:before{
+            counter-increment: subsection;
+            content: counter(section)"."counter(subsection)" ";
+        }
+    </style>
+</head>
+<body>
+<p>
+    dsdsds d <br>
+    sds d s <br>
+    ds d sd
+</p>
+<div class="before-counter" >
+    <h1> dsa</h1>
+    <h2>ds </h2>
+    <h2>ds </h2>
+    <h2>ds </h2>
+
+</div>
+</body>
+</html>
