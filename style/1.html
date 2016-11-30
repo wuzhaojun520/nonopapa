@@ -24,6 +24,123 @@
         .old-even > li:nth-child(odd){
             background-color: blue;
         }
+        .pseudo-effects >a {
+
+            display:inline-block;
+            position: relative;
+            text-decoration: none;
+            padding: 5px 10px;
+            outline: none;
+
+
+        }
+        .pseudo-effects > a:hover::after{
+            position: absolute;
+        }
+        .pseudo-effects > a:hover::before{
+            position: absolute;
+        }
+        .pseudo-effects > a:hover::before{
+            content:"\5b";
+            left: -10px;
+        }
+        .pseudo-effects > a:hover::after{
+            content:"\5d";
+            right: -10px;
+        }
+        .pseudo-effects2 {
+           display: inline-block;
+            position: relative;
+            padding: 20px 20px;
+            outline: none;
+            height: 20px;
+            text-decoration: none;
+
+        }
+
+        .pseudo-effects2 > a:hover::before{
+            content: "";
+            position: absolute;
+            top:0%;
+            left:0% ;
+            width: 100%;
+            height: 120%;
+            border-style:solid ;
+            border-width: 2px;
+            border-color: #2d2d2d;
+        }
+        .pseudo-effects2 > a:hover::after{
+            content: "";
+            position: absolute;
+            top:10%;
+            left:10% ;
+            width: 80%;
+            height: 100%;
+            border-style:dashed ;
+            border-width: 2px;
+            border-color: #2d2d2d;
+        }
+.mmm{
+    width: 100px;
+    height: 50px;
+    /*border: 1px solid black;*/
+    /*border-radius:0px 0px 0px  0px ;*/
+    /*!*box-shadow:0px 0px 10px 5px #888 inset;*!影子*/
+    border: 15px dashed transparent;
+    border-image-source:url("../sss-1.png") ;
+    border-image-repeat:round;
+    border-image-slice:29 28 ;
+
+    background: url("../1.jpg") content-box , url("../exercise_r2_c8.png") border-box;
+    background-size: 80px 40px,100px 50px;
+   background-repeat: no-repeat;
+    padding: 5px;
+    /*!*background-origin: padding-box;*!定义到内边距*/
+    /*background-origin: content-box;*/
+    /*!*background-origin: border-box;*!定义到外边距*/
+    /*background-clip: border-box;外边距颜色*/
+}
+        .text-container{
+            width: 200px;
+            height: auto;
+            text-shadow: 0 0 5px #00f;
+            /*letter-spacing: 10px;  (间距)*/
+            /*word-spacing: 20px;字间距*/
+            border-radius: 10px;
+            /*word-wrap: break-word;自动换行*/
+        }
+        .indent{
+            width: 130px;
+            tab-index: 30px;
+        }
+        .no-wrap2{
+            width: 100px;
+            height: auto;
+            border: 1px solid black;
+        }
+        .no-wrap2 .e{
+            text-overflow: ellipsis;
+                white-space: nowrap;
+            overflow: hidden;
+
+
+        }
+        @font-face {
+            font-family: bole;
+            src: url(../伯乐自然萌体.ttf);
+        }
+        .no-wrap2 .china{
+            white-space: pre;
+            font-family: bole;
+        }
+        .font-faces{
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .font-faces :before{
+            content: "\e005";
+        }
     </style>
 </head>
 <body>
@@ -50,5 +167,44 @@
     </ul>
 </div>
 
+<h2>
+    <div class="pseudo-effects" id="pseudoEffects">
+        <a href="#pseudoEffects">content1</a> <br>
+        <a href="#pseudoEffects">content2</a> <br>
+        <a href="#pseudoEffects">content3</a>
+    </div>
+</h2>
+<h2>
+    <div class="pseudo-effects2" id="pseudoEffects2">
+        <a href="#pseudoEffects2">content1</a>
+
+    </div>
+</h2>
+<div class="mmm">
+</div>
+
+<div class="text-container">
+    sdasdadasdsddaasdasddasdasdasdasdasdasdasdadasdadsdasd
+</div>
+<p class="indent">
+    实打实的湿度啊实打实的多少湿度湿度湿度湿度多少是
+</p>
+<div class="no-wrap2">
+    <li class="e">sdsadasdasdasdaddasdasd</li>
+    <li class="e">sdsadasdasdasdadsdasdasda</li>
+    <li class="china">时间的送大赛达到阿斯顿撒旦撒旦的撒旦的阿斯顿的撒旦</li>
+</div>
+<div class="font-faces">
+    <div>
+        <span></span>
+    </div>
+    <div>
+        <span></span>
+    </div>
+    <div>
+        <span></span>
+    </div>
+
+</div>
 </body>
 </html>
