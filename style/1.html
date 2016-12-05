@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"> /*缩放*/
     <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .v-container{ /* 缩放*/
+            width: 100vw;
+            height: 40vw;
+            background-color: red;
+        }
         .gallery-container:after{
             clear: both;
             content: '';
             display: block;
-
         }
         .gallery-container > .item{
             width: 100px;
@@ -130,7 +139,7 @@
             src: url(../伯乐自然萌体.ttf);
         }
         .no-wrap2 .china{
-            white-space: pre;
+            /*white-space: pre;(显示隐藏的空白格)*/
             font-family: bole;
         }
         .font-faces{
@@ -141,6 +150,24 @@
         .font-faces :before{
             content: "\e005";
         }
+        .transition-effect .ccc{
+            width: 210px;
+            height: 30px;
+            margin: 5px 0;
+            background-color: blue;
+            transition: 2s;
+
+        }
+        .transition-effect .ccc:hover{
+            /*transform:rotate(-12000deg);*/
+            /*background-color: #bf273d;*/
+            transform: translate(200px,-200px) rotate(-12000deg);
+        }
+        .colum{
+            column-count: 3;
+            column-rule: 1px solid black;
+        }
+
     </style>
 </head>
 <body>
@@ -205,6 +232,19 @@
         <span></span>
     </div>
 
+</div>
+<div class="transition-effect">
+    <div class="ccc">
+
+    </div>
+    <div class="colum">
+        <p>实打实的家睡觉打暑假的是受到了萨拉你就拉上你的撒娇巴萨见不到叫撒比的垃圾啊上班多久啊说不定将来把老实交代吧了解不多就
+       实打实的家睡觉打暑假的是受到了萨拉你就拉上你的撒娇巴萨见不到叫撒比的垃圾啊上班多久啊说不定将来把老实交代吧了解不多就
+        实打实的家睡觉打暑假的是受到了萨拉你就拉上你的撒娇巴萨见不到叫撒比的垃圾啊上班多久啊说不定将来把老实交代吧了解不多就</p>
+    </div>
+    <div class="v-container">
+
+    </div>
 </div>
 </body>
 </html>

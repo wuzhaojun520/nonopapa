@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: "glyphicons";
+            src: url(./glyphicons-halflings-regular.ttf)
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "glyphicons" ,serif;
+        }
+        h1{
+            color: white;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .container{
+            width: 100vw;
+            height: 50vh;
+            background-color: #000;
+            float: left;
+        }
+
+        @media all and (min-width: 1000px){
+            .container{
+                background-color: deepskyblue;
+            }
+            ul{
+                color: white;
+            }
+
+            .container a:before{
+                content: '\2709';
+                color: blue;
+
+            }
+
+        }
+
+        @media screen and (min-width: 800px) and (max-width:1000px ){
+            .container{
+                background-color: navy;
+            }
+            .container a:after{
+              content: attr(data-em);
+            }
+        }
+        @media screen and (min-width: 400px) and (max-width:800px ){
+            .container{
+                background-color: darkcyan;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>改变窗口大小</h1>
+        <ul>
+            <li>
+                <a href="maito:johndoe@example.com" data-em="53253@qq.com">john doe</a>
+            </li>
+            <li>
+                <a href="maito:david@example.com">david</a>
+            </li>
+            <li>
+                <a href="maito:paubo@example.com">paubo</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
